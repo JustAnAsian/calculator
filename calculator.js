@@ -26,3 +26,9 @@ function round_() {
 	x= Math.round(Number(x));
 	d(x);
 }
+function square_() {
+	e()
+	var x =document.getElementById("d").value;
+	x= Math.sqrt(Number(x));
+	d(x);
+}
