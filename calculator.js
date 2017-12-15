@@ -38,3 +38,9 @@ function expo_() {
 	x= Math.pow(x, 2);
 	d(x);
 }
+function expo2_() {
+	e()
+	var x =document.getElementById("d").value;
+	x= Math.pow(x, 3);
+	d(x);
+}
