@@ -19,3 +19,28 @@ function e() {
 		d("Error");
 	}
 }
+
+function round_() {
+	e()
+	var x =document.getElementById("d").value;
+	x= Math.round(Number(x));
+	d(x);
+}
+function square_() {
+	e()
+	var x =document.getElementById("d").value;
+	x= Math.sqrt(Number(x));
+	d(x);
+}
+function expo_() {
+	e()
+	var x =document.getElementById("d").value;
+	x= Math.pow(x, 2);
+	d(x);
+}
+function expo2_() {
+	e()
+	var x =document.getElementById("d").value;
+	x= Math.pow(x, 3);
+	d(x);
+}
