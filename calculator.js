@@ -19,3 +19,10 @@ function e() {
 		d("Error");
 	}
 }
+
+function round_() {
+	e()
+	var x =document.getElementById("d").value;
+	x= Math.round(Number(x));
+	d(x);
+}
