@@ -32,3 +32,9 @@ function square_() {
 	x= Math.sqrt(Number(x));
 	d(x);
 }
+function expo_() {
+	e()
+	var x =document.getElementById("d").value;
+	x= Math.pow(x, 2);
+	d(x);
+}
